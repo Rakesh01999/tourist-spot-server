@@ -29,7 +29,6 @@ async function run() {
     const spotCollection = client.db('spotDB').collection('spot');
     const countryCollection = client.db('spotDB').collection('country');
 
-
     // ------------- Spot -------------
 
     app.get('/spot', async (req, res) => {
